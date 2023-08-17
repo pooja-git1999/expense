@@ -4,6 +4,7 @@ import './Expenses.css';
 
 function Expenses(props) {
   return (
+    
     <Card className="expenses">
       <ExpenseItem
         title={props.items[0].title}
